@@ -18,8 +18,13 @@ Tatu Ylönen, in 1995 from Finland.
 
 ## Check ssh version
 > `ssh -V`
+
+![version output](./ssh_version.png)
+
 ## Start your ssh-agent
 > `eval $(ssh-agent -s)`
+
+
 
 Reference:
 * [Windows Installation](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)

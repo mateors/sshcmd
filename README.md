@@ -26,10 +26,13 @@ Tatu Ylönen, in 1995 from Finland.
 
 ![ssh_key_generate](./ssh_keygen.png)
 
+## What is eval?
+> eval is a built-in Linux command which is used to execute arguments as a shell command.
+
 ## Start your ssh-agent
 > `eval $(ssh-agent -s)`
 
-
+![ssh_agent_start](./ssh_agent_start.png)
 
 Reference:
 * [Windows Installation](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)

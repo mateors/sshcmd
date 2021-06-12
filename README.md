@@ -57,6 +57,10 @@ Tatu Ylönen, in 1995 from Finland.
 
 ![settings_keys](./settings_keys.png)
 
+## To Verify Authentication
+> `ssh -T git@github.com`
+
+![verify_connection](./verify_connection.png)
 
 Reference:
 * [Windows Installation](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)

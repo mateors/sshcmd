@@ -34,5 +34,19 @@ Tatu Ylönen, in 1995 from Finland.
 
 ![ssh_agent_start](./ssh_agent_start.png)
 
+## Check SSH Identity
+> `ssh-add -l`
+
+![ssh_identity_check](./ssh_identity_check.png)
+
+## Check public key
+> `ls ~/.ssh`
+> `cat ~/.ssh/id_rsa.pub`
+
+## Copy the public key
+> `clip < ~/.ssh/id_rsa.pub`
+
+![public_key_copy_into_clipboard](./public_key_copy_into_clipboard.png)
+
 Reference:
 * [Windows Installation](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)

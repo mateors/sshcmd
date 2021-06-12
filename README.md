@@ -48,5 +48,15 @@ Tatu Ylönen, in 1995 from Finland.
 
 ![public_key_copy_into_clipboard](./public_key_copy_into_clipboard.png)
 
+## Paste the clipboard into github following address
+> location-> https://github.com/settings/ssh/new
+
+![ssh_gpg_key](./ssh_gpg_key.png)
+
+![paste_public_key_into_github](./paste_public_key_into_github.png)
+
+![settings_keys](./settings_keys.png)
+
+
 Reference:
 * [Windows Installation](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)

@@ -62,5 +62,15 @@ Tatu Ylönen, in 1995 from Finland.
 
 ![verify_connection](./verify_connection.png)
 
+# To change the passpharse
+> `ssh-keygen -p`
+
+# Delete single named private key from ssh-agent
+> `ssh-add -d ~/.ssh/id_rsa`
+
+# Remove ALL private keys from the ssh-agent
+> `ssh-add -D`
+
+
 Reference:
 * [Windows Installation](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)

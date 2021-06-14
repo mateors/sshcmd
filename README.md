@@ -81,6 +81,25 @@ Tatu Ylönen, in 1995 from Finland.
 > Above technique used to copy public key from local to remote machine\
 > `cat ~/.ssh/id_rsa.pub | ssh user@serverip "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"`
 
+# SSH Server
+The SSH server configuration file is located here: /etc/ssh/sshd_config. An SSH configuration
+can be validated by running the command:
+> `/usr/ubin/sshd -t`
+
+> Anytime a change is made to the server’s SSH config file, the SSH service must be restarted.
+
+## View the SSH server status
+`systemctl status ssh`
+
+## Restart the SSH server
+`systemctl restart ssh`
+
+## Stop the SSH server
+`systemctl stop ssh`
+
+## Start the SSH server
+> `systemctl start ssh`
+
 
 Reference:
 * [Windows Installation](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)

@@ -73,7 +73,9 @@ Tatu Ylönen, in 1995 from Finland.
 # Remove ALL private keys from the ssh-agent
 > `ssh-add -D`
 
-> This is a test line added from the client machine
+> Get content of a file from home directory login to remote server create a file and paste its content there
+> `cat ~/file.txt | ssh user@serverip "touch ~/file.txt && cat >> ~/file.txt"`
+
 
 Reference:
 * [Windows Installation](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)

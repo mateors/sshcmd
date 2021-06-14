@@ -22,7 +22,7 @@ Tatu Ylönen, in 1995 from Finland.
 ![version output](./ssh_version.png)
 
 ## SSH Key Generation
-> `ssh-keygen -t -b 4086 -C "mateors github account"`
+> `ssh-keygen -t rsa -b 4086 -C "mateors github account"`
 
 ![ssh_key_generate](./ssh_keygen.png)
 

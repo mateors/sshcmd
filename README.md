@@ -100,6 +100,18 @@ can be validated by running the command:
 ## Start the SSH server
 > `systemctl start ssh`
 
+## Protecting the SSH Server
+>You might also consider add-on solutions to block IP addresses that repeatedly connect but fail to authenticate, such as fail2ban and blacklistd
+
+
+>To some extent, sshd(8) protects itself via privilege separation. Only a small section of the service runs with root privileges. Most of the server runs as an
+unprivileged user. This means that if an intruder successfully breaks into the server daemon, he can only do a limited amount of damage to your system. It’s
+still really annoying, but not devastating.
+
+> a simple way to reduce risk to your SSH service is to reduce the number of IP addresses that can access it\
+> `/etc/hosts.allow`
+
+>The most effective way to protect your server, however, is to disable passwords and only allow logins via keys. 
 
 Reference:
 * [Windows Installation](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
